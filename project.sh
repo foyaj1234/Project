@@ -4,6 +4,8 @@ echo "termux update and upgrade success"
 pkg install figlet -y 
 pkg install git -y
 pip install lolcat -y
+pkg install python 3 -y
+pip install colorama -y
 clear
 echo "✅ figlet install success"
 echo ""
@@ -21,7 +23,8 @@ echo "
   1.Make Banner
   2.Calculate
   3.ip tracker
-"
+  4.fishing world!
+  "
 read -p "choose a number : " nam
 echo ""
 
@@ -114,6 +117,17 @@ esac
 git clone https://github.com/rajkumardusad/IP-Tracer
 cd IP-Tracer
 bash install
+;;
+4)
+figlet fishing | lolcat
+echo ""
+echo ""
+echo "wait..."
+git clone https://github.com/Cyber-Dioxide/CyberPhish
+cd CyberPhish
+ls
+pip install -r requirements.txt
+python3 CyberPhish.py
 ;;
 *)
 echo "sorry, some error... 😫"
