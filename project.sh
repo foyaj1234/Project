@@ -31,7 +31,7 @@ echo "
   
  ╚═══════════════╝
   " | lolcat
-                     echo ""
+                     
 read -p "choose a number : " nam
 echo ""
 
