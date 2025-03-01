@@ -60,10 +60,9 @@ clear
 echo ""
 echo ""
 echo ""
- echo "
-    a.calculat...
+ echo "a.calculat...
 
-    b.namta...
+       b.namta...
 "
 read -p "choose one option... " ba
 case $ba in 
@@ -137,8 +136,7 @@ echo "$ban * $a = $((ban*a))"
 }
 ;;
 
-esac
-;;
+
 3)
 git clone https://github.com/rajkumardusad/IP-Tracer
 cd IP-Tracer
