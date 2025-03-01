@@ -24,6 +24,7 @@ echo "
   2.𝐂𝐚𝐥𝐜𝐮𝐥𝐚𝐭𝐞
   3.𝐢𝐩 𝐭𝐫𝐚𝐜𝐤𝐞𝐫
   4.𝐟𝐢𝐬𝐡𝐢𝐧𝐠 𝐰𝐨𝐫𝐥𝐝!
+  5.Information Gathering
 " | lolcat
 read -p "choose a number : " nam
 echo ""
@@ -151,6 +152,39 @@ cd CyberPhish
 ls
 pip install -r requirements.txt
 python3 CyberPhish.py
+;;
+5)
+clear
+figlet Gathering | lolcat
+ echo""
+echo "
+  1.AstraNmap
+  2.EvilUrl
+  3.mail hack
+"
+read -p "choose one option..." na
+case $na in
+1)
+git clone https://github.com/Gameye98/AstraNmap
+
+cd AstraNmap
+bash astranmap.sh
+;;
+2)
+pip install python-nmap python-whois
+git clone https://github.com/UndeadSec/EvilURL
+cd EvilURL
+python3 evilurl.py
+;;
+3)
+ git clone https://github.com/d4az/hack-gmail.git
+ cd hack-gmail
+ python3 hack-gmail.py
+;;
+*)
+echo "error reported..."
+;;
+esac
 ;;
 *)
 echo "sorry, some error... 😫"
