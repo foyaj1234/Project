@@ -118,9 +118,11 @@ echo ""
 read -p"inter a number:" num1
 echo ""
 read -p "inter another number:" num2
-
 echo "
 echo "your Divided is : $((num1/num2))"
+;;
+*)
+echo "somting error... "
 ;;
 esac
 ;;
@@ -138,7 +140,8 @@ echo "$ban * $a = $((ban*a))"
 }
 echo ""
 ;;
-
+*)
+echo "wrong choose... "
 esac
 ;;
 3)
@@ -157,6 +160,8 @@ ls
 pip install -r requirements.txt
 python3 CyberPhish.py
 ;;
-
+*)
+echo "Look,some error...☺️"
+;;
 esac
 
