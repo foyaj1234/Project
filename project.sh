@@ -119,11 +119,9 @@ read -p"inter a number:" num1
 echo ""
 read -p "inter another number:" num2
 
-echo ""
-echo "your Divided is : $((num1*num2))"
-*)
-echo "please choose right option.."
-;;
+echo "
+echo "your Divided is : $((num1/num2))"
+a
 esac
 ;;
  b)
