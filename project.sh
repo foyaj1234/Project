@@ -7,14 +7,17 @@ pip install lolcat -y
 pkg install python 3 -y
 pip install colorama -y
 clear
-echo "✅ figlet install success"
-echo ""
-sleep 1 
-echo "✅ lolcat  install success"
-sleep 2
-echo "git install success"
+echo "installing...
+      1.git
+      sleep 1
+      2.lolcat
+      sleep 1
+      3.colorama
+      sleep 1
+      4.figlet
+      sleep 1"
 clear 
-figlet   SIGMA  | lolcat 
+figlet  -f bloody  VENOM  | lolcat 
 
 echo ""
 echo ""
