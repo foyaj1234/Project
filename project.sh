@@ -14,7 +14,7 @@ echo "✅ lolcat  install success"
 sleep 2
 echo "git install success"
 clear 
-figlet   SIGMA  | lolcat 
+figlet  -f Bloody SIGMA  | lolcat 
 
 echo ""
 echo ""
@@ -24,7 +24,7 @@ echo "
   2.Calculate
   3.ip tracker
   4.fishing world!  
-"
+" | lolcat
 read -p "choose a number : " nam
 echo ""
 
