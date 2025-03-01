@@ -7,14 +7,15 @@ pip install lolcat -y
 pkg install python 3 -y
 pip install colorama -y
 clear
-echo "installing...
-      1.git
+echo "installing..."
+echo ""
+echo "  1.git      ✅"
       sleep 1
-      2.lolcat
+ echo " 2.lolcat   ✅"
       sleep 1
-      3.colorama
+ echo " 3.colorama ✅"
       sleep 1
-      4.figlet
+ echo " 4.figlet   ✅"
       sleep 1"
 clear 
 figlet  -f Bloody  VENOM  | lolcat 
