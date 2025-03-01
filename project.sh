@@ -151,7 +151,7 @@ bash install
 4)
 figlet fishing | lolcat
 echo ""
-echo ""
+
 
 git clone https://github.com/Cyber-Dioxide/CyberPhish
 cd CyberPhish
