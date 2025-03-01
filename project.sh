@@ -140,7 +140,7 @@ echo "$ban * $a = $((ban*a))"
 *)
 echo " wrong choose... "
 ;;
-""
+
 esac
 ;;
 3)
@@ -158,9 +158,7 @@ cd CyberPhish
 ls
 pip install -r requirements.txt
 python3 CyberPhish.py
-;;
-*)
-echo "Look,some error...☺️"
+
 ;;
 
 esac
