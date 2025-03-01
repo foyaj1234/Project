@@ -121,7 +121,7 @@ read -p "inter another number:" num2
 
 echo "
 echo "your Divided is : $((num1/num2))"
-a
+;;
 esac
 ;;
  b)
