@@ -1,6 +1,5 @@
 clear
 pkg update && upgrade -y
-echo "termux update and upgrade success" 
 pkg install figlet -y 
 pkg install git -y
 pip install lolcat -y
@@ -84,11 +83,10 @@ echo "Select operation:"
 echo ""
 echo ""
 read -p "choose a oparetor.. " y
-
 case $y in
 1)
 echo ""
-read -p"inter a number:" num1
+read -p "inter a number:" num1
 echo ""
 read -p "inter another number:" num2
 
@@ -97,7 +95,7 @@ echo "your add is :$((num1+num2))"
 ;;
 2)
 echo ""
-read -p"inter a number:" num1
+read -p "inter a number:" num1
 echo ""
 read -p "inter another number:" num2
 
@@ -106,7 +104,7 @@ echo "your Subtract is :$((num1-num2))"
 ;;
 3)
 echo ""
-read -p"inter a number:" num1
+read -p "inter a number:" num1
 echo ""
 read -p "inter another number:" num2
 
@@ -117,14 +115,13 @@ echo "your Multiply is : $((num1*num2))"
 echo ""
 read -p"inter a number:" num1
 echo ""
-read -p "inter another number:" num2
-echo "
+read -p "inter another number:" num2 
 echo "your Divided is : $((num1/num2))"
 ;;
 *)
-echo "somting error... "
-;;
+ "
 esac
+
 ;;
  b)
 clear
@@ -138,10 +135,12 @@ for ((a=1;a<11;a=a+1)){
 echo ""
 echo "$ban * $a = $((ban*a))"
 }
-echo ""
+
 ;;
 *)
-echo "wrong choose... "
+echo " wrong choose... "
+;;
+""
 esac
 ;;
 3)
@@ -163,5 +162,6 @@ python3 CyberPhish.py
 *)
 echo "Look,some error...☺️"
 ;;
+
 esac
 
