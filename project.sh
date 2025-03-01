@@ -17,7 +17,7 @@ echo "installing...
       4.figlet
       sleep 1"
 clear 
-figlet  -f bloody  VENOM  | lolcat 
+figlet  -f Bloody  VENOM  | lolcat 
 
 echo ""
 echo ""
