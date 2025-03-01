@@ -38,7 +38,7 @@ echo ""
 case $nam in
 1)
 clear
-sleep 2
+sleep 1
 echo "❌ your banner is not parmanent"
 sleep 1
 echo "
@@ -150,7 +150,7 @@ bash install
 figlet fishing | lolcat
 echo ""
 echo ""
-echo " wait..."
+
 git clone https://github.com/Cyber-Dioxide/CyberPhish
 cd CyberPhish
 ls
