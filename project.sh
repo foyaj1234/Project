@@ -135,10 +135,6 @@ for ((a=1;a<11;a=a+1)){
 echo ""
 echo "$ban * $a = $((ban*a))"
 }
-
-;;
-*)
-echo " wrong choose... "
 ;;
 
 esac
@@ -150,7 +146,6 @@ bash install
 ;;
 4)
 figlet fishing | lolcat
-echo ""
 
 
 git clone https://github.com/Cyber-Dioxide/CyberPhish
