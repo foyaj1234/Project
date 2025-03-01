@@ -150,15 +150,13 @@ bash install
 figlet fishing | lolcat
 echo ""
 echo ""
-echo "wait..."
+echo " wait..."
 git clone https://github.com/Cyber-Dioxide/CyberPhish
 cd CyberPhish
 ls
 pip install -r requirements.txt
 python3 CyberPhish.py
 ;;
-*)
-echo "sorry, some error... 😫"
-;;
+
 esac
 
