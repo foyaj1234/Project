@@ -14,16 +14,16 @@ echo "✅ lolcat  install success"
 sleep 2
 echo "git install success"
 clear 
-figlet  -f Bloody SIGMA  | lolcat 
+figlet  -f Bloody VENOM  | lolcat 
 
 echo ""
 echo ""
 echo ""
 echo "
-  1.Make Banner
-  2.Calculate
-  3.ip tracker
-  4.fishing world!  
+  1.𝐌𝐚𝐤𝐞 𝐁𝐚𝐧𝐧𝐞𝐫
+  2.𝐂𝐚𝐥𝐜𝐮𝐥𝐚𝐭𝐞
+  3.𝐢𝐩 𝐭𝐫𝐚𝐜𝐤𝐞𝐫
+  4.𝐟𝐢𝐬𝐡𝐢𝐧𝐠 𝐰𝐨𝐫𝐥𝐝!
 " | lolcat
 read -p "choose a number : " nam
 echo ""
@@ -118,9 +118,6 @@ echo "your multiply is : $((num1*num2))"
 echo "please choose right option.."
 ;;
 esac
-    
-  
-
 ;;
  b)
 clear
