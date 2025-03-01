@@ -75,33 +75,56 @@ figlet C A L | lolcat
 echo ""
 echo ""
 echo "Select operation:"
-    echo "1. Add"
-    echo "2. Subtract"
-    echo "3. Multiply"
-    echo "4. Divide"
+    
+
+    echo "1. Add (+)"
+    echo "2. Subtract (-)"
+    echo "3. Multiply (*)"
+    echo "4. Divide (/)"
 echo ""
+echo ""
+read -p "choose a oparetor.. " y
+
+case $y in
+1)
 echo ""
 read -p"inter a number:" num1
 echo ""
 read -p "inter another number:" num2
-echo ""
-echo ""
-echo ""    
-echo "your add is:"$((num1+num2))
 
-    echo ""
-echo "your Subtract is :"$((num1-num2))
 echo ""
-   
-echo "your Divide  is:"$((num1/num2))
+echo "your add is :$((num1+num2))"
+;;
+2)
 echo ""
-   
-echo "your Multiply is :"$((num1*num2))
+read -p"inter a number:" num1
 echo ""
+read -p "inter another number:" num2
 
-    
-  
+echo ""
+echo "your Subtract is :$((num1-num2))"
+;;
+3)
+echo ""
+read -p"inter a number:" num1
+echo ""
+read -p "inter another number:" num2
 
+echo ""
+echo "your Multiply is : $((num1*num2))"
+;;
+4)
+echo ""
+read -p"inter a number:" num1
+echo ""
+read -p "inter another number:" num2
+
+echo ""
+echo "your Divided is : $((num1*num2))"
+*)
+echo "please choose right option.."
+;;
+esac
 ;;
  b)
 clear
