@@ -1,4 +1,4 @@
-clear
+  clear
 pkg update && upgrade -y
 echo "termux update and upgrade success" 
 pkg install figlet -y 
@@ -20,12 +20,15 @@ echo ""
 echo ""
 echo ""
 echo "
- 1.𝐌𝐚𝐤𝐞 𝐁𝐚𝐧𝐧𝐞𝐫            | 7.Web Tool
- 2.𝐂𝐚𝐥𝐜𝐮𝐥𝐚𝐭𝐞       ‎‎‎‎‎‎‎‎        | 8.Social media finder
- 3.𝐢𝐩 𝐭𝐫𝐚𝐜𝐤𝐞𝐫ㅤㅤ            | 9.Android Hacking Toolㅤㅤ 
- 4.𝐟𝐢𝐬𝐡𝐢𝐧𝐠 𝐰𝐨𝐫𝐥𝐝!
- 5.Information Gathering
- 6.Wordlist Genarator
+  | 1.𝐌𝐚𝐤𝐞 𝐁𝐚𝐧𝐧𝐞𝐫        
+  | 2.𝐂𝐚𝐥𝐜𝐮𝐥𝐚𝐭𝐞       ‎‎‎‎‎‎‎‎     
+  | 3.𝐢𝐩 𝐭𝐫𝐚𝐜𝐤𝐞𝐫ㅤㅤ         ㅤ 
+  | 4.𝐟𝐢𝐬𝐡𝐢𝐧𝐠 𝐰𝐨𝐫𝐥𝐝!
+  | 5.Information Gathering
+  | 6.Wordlist Genarator
+  | 7.Web Tool
+  | 8.Social media finder
+  | 9.Android Hacking Tool
 
 " | lolcat
 read -p "choose a number : " nam
